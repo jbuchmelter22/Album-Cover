@@ -4,6 +4,8 @@ body {
 }
 td {
     text-align: center;
+    font-style: italic;
+    background-color: lightgreen;
 }
 #bm {
     font-family: "Garamond", sans-serif;
@@ -18,4 +20,9 @@ h1 {
 }
 li {
     font-style: italic;
+}
+table, th, td {
+    border: 1px solid black;
+    border-style: solid;
+    border-collapse: collapse;
 }
