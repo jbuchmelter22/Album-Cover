@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
 <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sounds of Silence</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="albumStyles.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <style>
     h1 {
 font-size: 40px;
@@ -25,12 +30,12 @@ table {
 }
     </style>
 </head>
-<body>
+<body class="container">
     <div align="center">
-        <div id="image"></div>
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/SoundsSilence.jpg" class="img-circle" alt="Sounds of Silence album cover">
     <h1>Sounds of Silence</h1>
     <h2><a href="http://www.simonandgarfunkel.com">Simon and Garfunkel</a></h2>
-    <h3 style="font-style: italic;">January 17, 1966</h3>
+    <h3 style="font-style: italic; font-size: medium;">January 17, 1966</h3>
     <hr>
    <span id="bm"> <h2>Band Members and Producers</h2></span>
     </div>
@@ -46,8 +51,8 @@ table {
     <li>Bob Johnston- producer</li>
     <li>Tom Wilson- producer</li>
     </ul>
-    <table>
-        <caption><h2>Tracks</h2></caption>
+    <div class="table-responsive"><table class="table-striped">
+        <caption style="caption-side: top; text-align: center;">Tracks</caption>
         <tr bgcolor="grey">
             <th>Track #</th>
         <th>Track Title</th>
@@ -108,6 +113,6 @@ table {
                 <td>I Am a Rock</td>
                 <td>2:49</td>
         </tr>
-    </table>
+    </table></div>
 </body>
 </html>
